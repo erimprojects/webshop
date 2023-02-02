@@ -10,10 +10,10 @@
 <body>
     <nav>
         <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="Erim.php">Erim</a></li>
-          <li><a href="Milan.html">Milan</a></li>
-          <li><a href="Anwar.html">Anwar</a></li>
+          <li><a href="homepage.php">Home</a></li>
+          <li><a href="Erim.php">Winkelen</a></li>
+          <li><a href="Milan.html">over ons</a></li>
+          <li><a href="Anwar.html">Contact</a></li>
         </ul>
       </nav>
     
