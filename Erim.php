@@ -8,6 +8,7 @@
 <title>project-3</title>
 </head>
 <body>
+    <main>
     <nav>
         <ul>
           <li><a href="index.html">Home</a></li>
@@ -16,18 +17,29 @@
           <li><a href="Anwar.html">Anwar</a></li>
         </ul>
       </nav>
-    
-     
+      <section>
+
+  <form action="action_page.php" method="POST">
+  <label for="fname">Username:</label><br>
+  <input type="text" id="fname" name="uname" value=""><br><br>
+  <label for="fname">Password:</label><br>
+  <input type="password" id="fname" name="password" value=""><br><br>
+  <input type="submit" value="Submit">
+  </form>         
+
+
+        <?php 
+        
+        echo "Today is " . date("Y/m/d") 
+        
+      
+        ?>
+             
+            
+  </section>
+    </main>
       <footer>
         <p>Copyright &copy; 2023 My Website</p>
       </footer>
-</body>
+ </body>
 </html>
-
-
-<?php 
-
-echo "Today is " . date("Y/m/d") 
-
-
-?>

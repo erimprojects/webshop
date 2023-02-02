@@ -3,6 +3,19 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+min-height: 100vh;
+position: relative;
+}
+
+main{
+  min-height: 80vh;
+  
+}
+
+
+
 nav {
     display: flex;
     justify-content: center;
@@ -31,6 +44,9 @@ nav {
   }
   
   footer{
-    display: flex;
+    position: absolute;
+    bottom: o;
    
   }
+
+  
